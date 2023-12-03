@@ -1,10 +1,10 @@
 const button = document.getElementById("btn");
 const button2 = document.getElementById("btn_yes2");
 const hover1 = document.getElementById("another_gif");
-// button.addEventListener('mouseover', function () {
-//     button.style.left = `${Math.ceil(Math.random() * 90)}%`;
-//     button.style.top = `${Math.ceil(Math.random() * 90)}%`;
-// });
+button.addEventListener('mouseover', function () {
+    button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+    button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+});
 button.addEventListener('click', function () {
     alert('Your heart demands from you to reconsider and take your feelings into account this time');
     button.style.display = "none";
