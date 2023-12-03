@@ -248,3 +248,11 @@ form {
     0 0 7px #C46A2B,
     0 0 10px #C46A2B;
 }
+
+#btn_cv:active {
+    transition: none;
+    box-shadow: 0 0 5px #C46A2B,
+    0 0 7px #C46A2B,
+    0 0 10px #C46A2B,
+    0 0 15px #C46A2B;
+}
