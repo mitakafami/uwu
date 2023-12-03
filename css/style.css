@@ -51,14 +51,23 @@ h2 {
     align-items: center;
     position: absolute;
     z-index: 2;
+    box-shadow: 0 5px 3px rgb(0, 0, 0);
     transform: translatex(-110%);
     transition: 0.2s linear;
 }
 
 #btn_yes1:hover {
     box-shadow: 0 0 5px #C46A2B,
-    0 0 7px #C46A2B,
-    0 0 10px #C46A2B;
+    0 5px 7px #C46A2B,
+    0 5px 10px #C46A2B;
+}
+
+#btn_yes1:active {
+    transition: none;
+    box-shadow: 0 0 5px #C46A2B,
+    0 5px 7px #C46A2B,
+    0 5px 10px #C46A2B,
+    0 0 20px red;
 }
 
 #btn_yes2 {
@@ -78,6 +87,12 @@ h2 {
     position: absolute;
     transition: .5s;
     transform: translatex(1.5%);
+
+    box-shadow: 0 3px 3px rgb(0, 0, 0);
+}
+
+#btn_yes2:active {
+    box-shadow: 3px 3px 3px rgb(0, 0, 0) inset;
 }
 
 
@@ -98,6 +113,12 @@ h2 {
     position: absolute;
     transition: .5s;
     transform: translatex(10%);
+
+    box-shadow: 0 3px 3px rgb(0, 0, 0);
+}
+
+#btn:active {
+    box-shadow: 3px 3px 3px rgb(0, 0, 0) inset;
 }
 
 #hover_gif {
