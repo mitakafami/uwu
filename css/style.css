@@ -1,0 +1,229 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    min-height: 100;
+    padding-top: 50px;
+}
+
+.card {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    row-gap: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Handlee', cursive;
+    color: red;
+}
+
+.main_img {
+    height: 250px;
+}
+
+.btn_group {
+    display: flex;
+    gap: 10px;
+}
+
+#btn_yes1 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: red;
+    font-family: 'Handlee', cursive;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 16px;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    transform: translatex(-110%);
+    transition: 0.2s linear;
+}
+
+#btn_yes1:hover {
+    box-shadow: 0 0 5px #C46A2B,
+    0 0 7px #C46A2B,
+    0 0 10px #C46A2B;
+}
+
+#btn_yes2 {
+    display: none;
+    cursor: pointer;
+    border: black 2px solid;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Handlee', cursive;
+    width: 120px;
+    height: 35px;
+    border-radius: 16px;
+    padding: 19px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: .5s;
+    transform: translatex(1.5%);
+}
+
+
+#btn {
+    cursor: pointer;
+    border: black 2px solid;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Handlee', cursive;
+    width: 120px;
+    height: 35px;
+    border-radius: 16px;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: .5s;
+    transform: translatex(10%);
+}
+
+#hover_gif {
+    height: 100px;
+    position: fixed;
+    left: 500px;
+    top: 420px;
+    display: none;
+}
+
+#another_gif {
+    height: 100px;
+    position: fixed;
+    left: 915px;
+    top: 420px;
+    display: none;
+}
+
+/* .show {
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.above_form {
+    height: 150px;
+}
+.main_form_title {
+    color: red;
+    font-size: 50px;
+    font-family: 'Handlee', cursive;
+}
+
+#name,
+#location {
+    font-family: 'Handlee', cursive;
+}
+#GF {
+    color: red;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+#file {
+    text-align-last: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.tetext {
+    color: red;
+    font-size: 2px;
+    font-family: 'Handlee', cursive;
+}
+
+#hidden {
+    color: red;
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+    /* display: none; */
+}
+#btn_cv {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: red;
+    font-family: 'Handlee', cursive;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 16px;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s linear;
+}
+#btn_cv:hover {
+    box-shadow: 0 0 5px #C46A2B,
+    0 0 7px #C46A2B,
+    0 0 10px #C46A2B;
+}

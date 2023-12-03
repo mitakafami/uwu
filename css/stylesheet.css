@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Handlee';
+    src: url('Handlee-Regular.eot');
+    src: url('Handlee-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Handlee-Regular.woff2') format('woff2'),
+        url('Handlee-Regular.woff') format('woff'),
+        url('Handlee-Regular.ttf') format('truetype'),
+        url('Handlee-Regular.svg#Handlee-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
